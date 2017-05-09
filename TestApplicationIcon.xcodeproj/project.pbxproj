@@ -12,6 +12,12 @@
 		41D218581EC1961E00FFEB7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D218561EC1961E00FFEB7C /* Main.storyboard */; };
 		41D2185A1EC1961E00FFEB7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D218591EC1961E00FFEB7C /* Assets.xcassets */; };
 		41D2185D1EC1961E00FFEB7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D2185B1EC1961E00FFEB7C /* LaunchScreen.storyboard */; };
+		41D218761EC19C2400FFEB7C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41D218741EC19C2400FFEB7C /* Icon@2x.png */; };
+		41D218771EC19C2400FFEB7C /* Icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41D218751EC19C2400FFEB7C /* Icon@3x.png */; };
+		41D2187A1EC1A4FA00FFEB7C /* Icon1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41D218781EC1A4FA00FFEB7C /* Icon1@2x.png */; };
+		41D2187B1EC1A4FA00FFEB7C /* Icon1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41D218791EC1A4FA00FFEB7C /* Icon1@3x.png */; };
+		41D2187E1EC1A56500FFEB7C /* Icon2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41D2187C1EC1A56500FFEB7C /* Icon2@3x.png */; };
+		41D2187F1EC1A56500FFEB7C /* Icon2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41D2187D1EC1A56500FFEB7C /* Icon2@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		41D218591EC1961E00FFEB7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41D2185C1EC1961E00FFEB7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41D2185E1EC1961E00FFEB7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D218741EC19C2400FFEB7C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		41D218751EC19C2400FFEB7C /* Icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@3x.png"; sourceTree = "<group>"; };
+		41D218781EC1A4FA00FFEB7C /* Icon1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon1@2x.png"; sourceTree = "<group>"; };
+		41D218791EC1A4FA00FFEB7C /* Icon1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon1@3x.png"; sourceTree = "<group>"; };
+		41D2187C1EC1A56500FFEB7C /* Icon2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon2@3x.png"; sourceTree = "<group>"; };
+		41D2187D1EC1A56500FFEB7C /* Icon2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon2@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				41D218591EC1961E00FFEB7C /* Assets.xcassets */,
 				41D2185B1EC1961E00FFEB7C /* LaunchScreen.storyboard */,
 				41D2185E1EC1961E00FFEB7C /* Info.plist */,
+				41D218741EC19C2400FFEB7C /* Icon@2x.png */,
+				41D218751EC19C2400FFEB7C /* Icon@3x.png */,
+				41D218781EC1A4FA00FFEB7C /* Icon1@2x.png */,
+				41D218791EC1A4FA00FFEB7C /* Icon1@3x.png */,
+				41D2187C1EC1A56500FFEB7C /* Icon2@3x.png */,
+				41D2187D1EC1A56500FFEB7C /* Icon2@2x.png */,
 			);
 			path = TestApplicationIcon;
 			sourceTree = "<group>";
@@ -96,6 +114,7 @@
 				TargetAttributes = {
 					41D2184E1EC1961E00FFEB7C = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 34QXYKJ6T9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,9 +142,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41D2187F1EC1A56500FFEB7C /* Icon2@2x.png in Resources */,
+				41D2187B1EC1A4FA00FFEB7C /* Icon1@3x.png in Resources */,
+				41D218761EC19C2400FFEB7C /* Icon@2x.png in Resources */,
 				41D2185D1EC1961E00FFEB7C /* LaunchScreen.storyboard in Resources */,
+				41D2187A1EC1A4FA00FFEB7C /* Icon1@2x.png in Resources */,
 				41D2185A1EC1961E00FFEB7C /* Assets.xcassets in Resources */,
+				41D2187E1EC1A56500FFEB7C /* Icon2@3x.png in Resources */,
 				41D218581EC1961E00FFEB7C /* Main.storyboard in Resources */,
+				41D218771EC19C2400FFEB7C /* Icon@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +285,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 34QXYKJ6T9;
 				INFOPLIST_FILE = TestApplicationIcon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xinxibin.com.TestApplicationIcon;
@@ -272,6 +298,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 34QXYKJ6T9;
 				INFOPLIST_FILE = TestApplicationIcon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xinxibin.com.TestApplicationIcon;

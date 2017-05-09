@@ -10,16 +10,31 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var images = ["Icon1","Icon2","Icon-60"]
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func onBtnClick(_ sender: UIButton) {
+        
+        setIconName(icon: images[sender.tag - 1])
     }
+    
 
+    func setIconName(icon:String) {
+        
+        let app = UIApplication.shared
+        if app.supportsAlternateIcons {
+            app.setAlternateIconName(icon, completionHandler: { (error) in
+                if error != nil {
+                    print("error => \(String(describing: error?.localizedDescription))")
+                }else {
+                    print("Done")
+                }
+            })
+        }
+    }
 
 }
 
