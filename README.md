@@ -1,7 +1,7 @@
 # ChangeAppIconDemo-Swift
 
 
-动态更换 App 图标，从 ios 10.3开始，系统已经支持开发者自己实现api来更改应用图标。Demo 在最后
+动态更换 App 图标，从 ios 10.3开始，系统已经支持开发者自己实现api来更改应用图标。
 
 ## 新的api
 系统api更换图标只有三个方法：
@@ -90,5 +90,3 @@ extension UIApplication {
 
 解决方法：OC : 可以使用运行时修改方法处理
 	Swift 中是暂时不知道怎么处理，怀疑是苹果大爷不想让偷偷的改应用图标
-
-## 最后
